@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-09 17:08:44</sys_created_on>
+        <sys_id>d13a60b82fa630104b71309cf699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cf2a20b82fa630104b71309cf699b619.itil</sys_name>
+        <sys_package display_value="DevSecOps Portal" source="x_676160_devseco_0">96b928782fa630104b71309cf699b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevSecOps Portal">96b928782fa630104b71309cf699b6e4</sys_scope>
+        <sys_security_acl display_value="cf2a20b82fa630104b71309cf699b619">132a20b8bca63010951e46aa5340f745</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d13a60b82fa630104b71309cf699b6be</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-09 17:08:44</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
