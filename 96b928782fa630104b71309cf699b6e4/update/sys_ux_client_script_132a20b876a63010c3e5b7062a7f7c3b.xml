@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">db2a20b8eca63010362721149fe0ea39</macroponent>
+        <name>handle_search</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, helpers }) {
+    const fields = {
+        searchContextConfigId: api.context.props.searchContextConfigId
+    };
+    const params = {
+        searchFilters: api.context.props.searchFilters
+    };
+    
+	if (event.name === 'SN_SEARCH_RESULTS_CONTAINER#SEARCH_EXECUTED') {
+		fields.searchTerm = event.payload.searchTerm;
+		params.disableSpellCheck = true;
+        
+  	} else if (event.name === 'SN_SEARCH_COMBOBOX#SEARCH_EXECUTED') {
+		fields.searchTerm = event.payload.searchTerm;
+		params.disableSpellCheck = false;
+        console.log("search clicked");
+        api.setState('loading', true);
+        api.setState('searchTerm', event.payload.searchTerm);
+  	}
+	//helpers.navigate.to('search', fields, params);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-09 17:08:40</sys_created_on>
+        <sys_id>132a20b876a63010c3e5b7062a7f7c3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handle_search</sys_name>
+        <sys_package display_value="DevSecOps Portal" source="x_676160_devseco_0">96b928782fa630104b71309cf699b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevSecOps Portal">96b928782fa630104b71309cf699b6e4</sys_scope>
+        <sys_update_name>sys_ux_client_script_132a20b876a63010c3e5b7062a7f7c3b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-09 17:08:40</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

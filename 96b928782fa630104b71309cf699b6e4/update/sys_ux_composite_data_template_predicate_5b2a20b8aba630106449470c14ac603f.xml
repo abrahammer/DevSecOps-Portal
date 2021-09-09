@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,state</field_list>
+        <name>My request - incident predicate</name>
+        <order/>
+        <predicate_bundle display_value="My requests - incident bundle">132a20b817a630109c20e9035bb4c33e</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-09 17:08:42</sys_created_on>
+        <sys_id>5b2a20b8aba630106449470c14ac603f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My request - incident predicate</sys_name>
+        <sys_package display_value="DevSecOps Portal" source="x_676160_devseco_0">96b928782fa630104b71309cf699b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevSecOps Portal">96b928782fa630104b71309cf699b6e4</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_5b2a20b8aba630106449470c14ac603f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-09 17:08:42</sys_updated_on>
+        <table>incident</table>
+        <ux_template display_value="Item produced template">d72a20b8dfa63010ec6674324dc9123e</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

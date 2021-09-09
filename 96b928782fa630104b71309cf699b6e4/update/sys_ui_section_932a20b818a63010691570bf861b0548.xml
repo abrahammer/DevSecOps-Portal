@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="932a20b818a63010691570bf861b0548" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_676160_devseco_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-09-09 17:08:37</sys_created_on>
+            <sys_id>172a20b8a3a63010e9f842e5c39d0948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="d32a20b8a3a630106f0af4daa77b6748">932a20b818a63010691570bf861b0548</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2021-09-09 17:08:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-09-09 17:08:38</sys_created_on>
+            <sys_id>572a20b82ea63010e2429ab0698bfa48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="d32a20b8a3a630106f0af4daa77b6748">932a20b818a63010691570bf861b0548</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2021-09-09 17:08:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-09-09 17:08:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>932a20b818a63010691570bf861b0548</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DevSecOps Portal" source="x_676160_devseco_0">96b928782fa630104b71309cf699b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DevSecOps Portal">96b928782fa630104b71309cf699b6e4</sys_scope>
+            <sys_update_name>sys_ui_section_932a20b818a63010691570bf861b0548</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2021-09-09 17:08:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_676160_devseco_0 )" name="custom_portal_approval_x_676160_devseco_0">d32a20b8a3a630106f0af4daa77b6748</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
